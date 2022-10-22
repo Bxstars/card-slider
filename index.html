@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+            
+    <title>Card Imagem</title>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/ann-danilina-Y2JQGXUM1iU-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Coreia do Sul</h1>
+                    <p>A Coreia do Sul é um país do sudeste asiático, tem terreno montanhoso, banhado pelo Oceano Pacífico.
+                    </p>
+                    <!-- <p>Veja mais sobre "Coreia do Sul " em: https://brasilescola.uol.com.br/geografia/coreia-sul.html</p> -->
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/alevision-co-mmfma848PUo-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Suíça</h1>
+                    <p>Localizada na região da Europa Central. Um dos países mais desenvolvidos e com maiores índices de qualidade de vida do mundo.
+                    </p>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/jarrad-horne-c-UJQKs8fFU-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Bali</h1>
+                    <p> É uma ilha e província da Indonésia. As praias deslumbrantes por toda a costa sudoeste da ilha são convites para amantes do sol e surfistas.</p>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/jj-ying-9Qwbfa_RM94-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Japão</h1>
+                    <p>inf card</p>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/julia-solonina-oRjGmKZLNHk-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Itália</h1>
+                    <p>inf card</p>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slider-imagem-wrapper">
+                    <img  class="slider-image" src="/imagens/peter-boccia-NeYUCnedVFM-unsplash.jpg" alt="">
+                </div>
+                <div class="slider-item-content">
+                    <h1>Grécia</h1>
+                    <p>inf card</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button class="swiper-button-prev">Anterior</button>
+            <button class="swiper-button-next">Próximo</button>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        slidesPreview: 1,
+        spaceBetween: 20,
+        effect: 'fade',
+        loop: true,
+        speed: 300,
+        mousewheel: {
+            invert: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+    </script>
+</body>
+</html>
+
+
+
